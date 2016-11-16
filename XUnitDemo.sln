@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{410BAF0E-8B14-45E8-8DFA-6C63CC579797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82342E7A-54EC-4BBA-B803-1BB79CE2E5CD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Calculator", "src\Calculator\Calculator.xproj", "{E6BC449E-5561-435A-AE66-E5B93711A1AF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Calculator.Tests", "src\Calculator.Tests\Calculator.Tests.xproj", "{44983244-77F3-4D81-BA44-33C25AAEE130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BC449E-5561-435A-AE66-E5B93711A1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BC449E-5561-435A-AE66-E5B93711A1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BC449E-5561-435A-AE66-E5B93711A1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BC449E-5561-435A-AE66-E5B93711A1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44983244-77F3-4D81-BA44-33C25AAEE130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44983244-77F3-4D81-BA44-33C25AAEE130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44983244-77F3-4D81-BA44-33C25AAEE130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44983244-77F3-4D81-BA44-33C25AAEE130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6BC449E-5561-435A-AE66-E5B93711A1AF} = {410BAF0E-8B14-45E8-8DFA-6C63CC579797}
+		{44983244-77F3-4D81-BA44-33C25AAEE130} = {410BAF0E-8B14-45E8-8DFA-6C63CC579797}
+	EndGlobalSection
+EndGlobal
